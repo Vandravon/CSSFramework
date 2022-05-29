@@ -1,0 +1,303 @@
+/* ============================= */
+/* ========== SECTIONS ========= */
+/* ============================= */
+.section-light {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+}
+
+.section-dark {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+
+.section-primary {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+}
+
+.section-secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-light);
+}
+
+/* ========================== */
+/* ========== ALERT ========= */
+/* ========================== */
+.alert {
+  padding: calc(var(--spacing) / 2) var(--spacing);
+  border-radius: var(--border-radius);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--spacing);
+}
+
+.alert-close {
+  font-size: 1.75rem;
+}
+
+.alert-close:hover {
+  cursor: pointer;
+}
+
+.alert-light {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+}
+
+.alert-dark {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+
+.alert-primary {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+}
+
+.alert-secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-light);
+}
+
+.alert-success {
+  background-color: var(--color-success);
+  color: var(--color-light);
+}
+
+.alert-danger {
+  background-color: var(--color-danger);
+  color: var(--color-light);
+}
+
+.alert-warning {
+  background-color: var(--color-warning);
+  color: var(--color-light);
+}
+
+/* ============================ */
+/* ========== BUTTONS ========= */
+/* ============================ */
+
+/* GLOBAL STYLE */
+.btn {
+  display: inline-block;
+  padding: calc(var(--spacing) / 2) var(--spacing);
+  border-radius: calc(var(--border-radius) / 2);
+  border-width: 2px;
+  border-style: solid;
+  transition: .25s;
+}
+
+/* 🎨 COLORS */
+.btn-light {
+  border-color: var(--color-light);
+  background-color: var(--color-light);
+  color: var(--color-dark);
+}
+
+.btn-outline-light {
+  border-color: var(--color-light);
+  background-color: transparent;
+  color: var(--color-light);
+}
+
+.btn-outline-light:hover {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+}
+
+.btn-dark {
+  border-color: var(--color-dark);
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+
+.btn-outline-dark {
+  border-color: var(--color-dark);
+  background-color: transparent;
+  color: var(--color-dark);
+}
+
+.btn-outline-dark:hover {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+
+.btn-primary {
+  border-color: var(--color-primary);
+  background-color: var(--color-primary);
+  color: var(--color-light);
+}
+
+.btn-outline-primary {
+  border-color: var(--color-primary);
+  background-color: transparent;
+  color: var(--color-primary);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+}
+
+.btn-secondary {
+  border-color: var(--color-secondary);
+  background-color: var(--color-secondary);
+  color: var(--color-light);
+}
+
+.btn-outline-secondary {
+  border-color: var(--color-secondary);
+  background-color: transparent;
+  color: var(--color-secondary);
+}
+
+.btn-outline-secondary:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-light);
+}
+
+.btn-danger {
+  border-color: var(--color-danger);
+  background-color: var(--color-danger);
+  color: var(--color-light);
+}
+
+.btn-outline-danger {
+  border-color: var(--color-danger);
+  background-color: transparent;
+  color: var(--color-danger);
+}
+
+.btn-outline-danger:hover {
+  background-color: var(--color-danger);
+  color: var(--color-light);
+}
+
+.btn-warning {
+  border-color: var(--color-warning);
+  background-color: var(--color-warning);
+  color: var(--color-light);
+}
+
+.btn-outline-warning {
+  border-color: var(--color-warning);
+  background-color: transparent;
+  color: var(--color-warning);
+}
+
+.btn-outline-warning:hover {
+  background-color: var(--color-warning);
+  color: var(--color-light);
+}
+
+.btn-success {
+  border-color: var(--color-success);
+  background-color: var(--color-success);
+  color: var(--color-light);
+}
+
+.btn-outline-success {
+  border-color: var(--color-success);
+  background-color: transparent;
+  color: var(--color-success);
+}
+
+.btn-outline-success:hover {
+  background-color: var(--color-success);
+  color: var(--color-light);
+}
+
+/* 🐘 SIZE */
+.btn-small {
+  padding: calc(var(--spacing) / 4) calc(var(--spacing) / 3);
+  font-size: .875rem;
+}
+
+.btn-big {
+  padding: calc(var(--spacing) / 1.5) calc(var(--spacing) * 1.5);
+  font-size: 1.25rem;
+}
+
+/* ⭕ RADIUS */
+.btn-square {
+  border-radius: 0;
+}
+
+.btn-circle {
+  border-radius: 1000px;
+}
+
+/* ========================== */
+/* ========== CARDS ========= */
+/* ========================== */
+.card {
+  box-shadow: .25rem .125rem 1rem rgba(0, 0, 0, 0.08);
+  border-radius: var(--border-radius);
+}
+
+.card-header img {
+  width: 100%;
+  display: block;
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+}
+
+.card-body {
+  padding: var(--spacing);
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+
+.card-body h2,
+.card-body h3,
+.card-body h4,
+.card-body h5,
+.card-body h6 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: calc(var(--spacing) / 2);
+}
+
+.card-buttons {
+  margin-top: var(--spacing);
+  display: flex;
+  flex-wrap: wrap;
+  gap: calc(var(--spacing) / 4);
+}
+
+
+
+/* =============================== */
+/* ========== BREADCRUMB ========= */
+/* =============================== */
+.breadcrumb ul {
+  list-style: none;
+  display: flex;
+  gap: calc(var(--spacing) / 4);
+  font-size: 1.125rem;
+}
+
+.breadcrumb-link::after {
+  content: "/";
+}
+
+.breadcrumb-link::after {
+  margin-left: calc(var(--spacing) / 4);
+}
+
+.separator-chevron .breadcrumb-link::after {
+  content: ">";
+}
+
+.separator-triangle .breadcrumb-link::after {
+  content: "‣";
+}
+
+.separator-line .breadcrumb-link::after {
+  content: "-";
+}

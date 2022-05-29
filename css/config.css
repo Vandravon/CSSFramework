@@ -1,0 +1,15 @@
+:root {
+  --color-light: #FFF4EC;
+  --color-dark: #2A2A2D;
+  --color-primary: #648872;
+  --color-secondary: #C6B053;
+  --color-tertiary: #EBE6A6;
+  --color-success: rgb(12, 177, 111);
+  --color-danger: rgb(197, 48, 35);
+  --color-warning: rgb(232, 174, 0);
+  --spacing: 1.5rem;
+  --border-radius: .5rem;
+  --typo: 'Manrope', sans-serif;
+}
+
+/* <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"> */
